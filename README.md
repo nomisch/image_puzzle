@@ -12,8 +12,8 @@ A simple python program that slices a picture into N tiles, shuffles the tiles a
 The program reads all images contained in the "input directory" and does the following for every image:
 * Slices the image into N tiles
 * Shuffles the tiles
-* Adds a small border of M pixels to every tile (it actually paints a line over the existing pixels of the tile)
-* Recreates an image with the shuffled and update tiles
+* Adds a small border of width M to every tile (it actually paints a line over existing pixels of the tile)
+* Recreates an image with the shuffled and updated tiles
 * Saves the recreated image into the "output directory"
 
 Options:
@@ -37,6 +37,8 @@ Just run it
 
 I only tested it with ".png" images
 
+I initially looked for an existing implementation for such program but could not find anything online to my surpise ... So I quickly coded it ...
+
 ## Help
 
 No help required ...
@@ -55,6 +57,6 @@ Feel free to reuse this project as you wish
 
 ## Potential improvements
 * Handle additional image formats
-* Ensure original adjacent tiles are not adjacent in the final image
-* Define how to tile images  (#row, #columns)$
+* Better define how to tile images by specifying desired number of rows and columns
+* Ensure original adjacent tiles are not adjacent in the final image (would be interesting to achieve)
 * ...
