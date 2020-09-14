@@ -1,9 +1,11 @@
 # Image  Puzzle
 
 A simple python program that slices a picture into N tiles, shuffles the tiles and then recreates a (shuffled) image.
-<p align="center">
-<img src="/input_images/test_image.png" alt="input image" width="300"/><label> | <img src="/output_images/test_image.png" alt="output image" width="300"/>
-</p>
+
+<table align="center"><tr>
+<td> <img src="/input_images/test_image.png" alt="input image" width="300"/></td>
+<td> <img src="/output_images/test_image.png" alt="output image" width="300"/> </td>
+</tr></table>
 
 ## Description
 
