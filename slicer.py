@@ -26,7 +26,7 @@ def slice(img_name, input_dir="input_images", output_dir="output_images", number
 if __name__ == '__main__':
     input_dir = "input_images"
     output_dir = "output_images"
-    number_tiles = 30
+    number_tiles = 4
     outline_width = 2
 
     input_files = [f for f in os.listdir(input_dir) if os.path.isfile(os.path.join(input_dir, f))]
