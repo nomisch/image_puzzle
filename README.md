@@ -2,6 +2,8 @@
 
 A simple python program that slices a picture into N tiles, shuffles the tiles and then recreates a (shuffled) image.
 
+![Input image](/input_images/test_image.png "Input image") ![output image](/output_images/test_image.png "Output image")
+
 ## Description
 
 The program reads all images contained in the "input directory" and does the following for every image:
